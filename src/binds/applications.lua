@@ -2,6 +2,7 @@ local config = require("src.config")
 
 local exec_cmd = hl.dsp.exec_cmd
 
+hl.bind(config.mainMod .. " + W", exec_cmd(config.applications.steam))
 hl.bind(config.mainMod .. " + Q", exec_cmd(config.applications.terminal))
 hl.bind(config.mainMod .. " + E", exec_cmd(config.applications.fileManager))
 hl.bind(config.mainMod .. " + X", exec_cmd(config.applications.menu))

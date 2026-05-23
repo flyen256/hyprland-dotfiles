@@ -32,7 +32,8 @@ local config = {
 		resources = "resources",
 		pavucontrol = "pavucontrol",
 		hyprshot = "hyprshot -m region",
-		hyprshot_window = "hyprshot -m window"
+		hyprshot_window = "hyprshot -m window",
+		steam = "steam"
 	},
 	commands = {
 		restart_shell = "~/.config/hypr/scripts/restart_ags.sh"
