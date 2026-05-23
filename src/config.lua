@@ -16,7 +16,6 @@ local config = {
 	autostart_programs = {
 		"hyprctl dispatch workspace 0",
 		"ags run",
-		"hyprpaper",
 		"awww-daemon & swaync",
 		"wl-paste --type text --watch cliphist store",
 		"wl-paste --type image --watch cliphist store",
